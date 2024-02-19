@@ -26,7 +26,6 @@ pd.set_option("display.expand_frame_repr", True)
 ############################################ Abrufen der Daten ##################################
 
 df = pd.read_csv("datasets/persona.csv")
-df.head()
 
 
 
