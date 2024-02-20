@@ -87,8 +87,8 @@ data_analysis(df)
 
 
 def define_persona(dataframe):
-    # Zuerst wandeln wir das Alter in kategorische Daten um und definieren dann neue Kundenprofile (Personas) anhand von
-    # Country, Source, Age Und Sex.
+    # Wir wandeln das Alter in kategorische Daten um und definieren dann neue Kundenprofile (Personas) anhand von
+    # Country, Source, Age und Sex.
 
     bins = [dataframe["AGE"].min(), 18, 23, 35, 45, dataframe["AGE"].max()]
     labels = [str(dataframe["AGE"].min()) + "_18", "19_23", "24_35", "36_45", "46_" + str(dataframe["AGE"].max())]
