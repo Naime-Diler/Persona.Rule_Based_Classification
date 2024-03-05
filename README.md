@@ -15,7 +15,7 @@ Merkmalen mehrere Einkäufe getätigt haben.
 
 **PRICE:** Betrag, den der Kunde ausgegeben hat,
 
-**SOURCE:** Gerätetyp, mit dem der Kunde verbunden ist (iOS/Android),
+**SOURCE:** Gerätetyp, mit dem der Kunde verbunden ist (iOS/Android), 
 
 **SEX:** Geschlecht des Kunden,
 
